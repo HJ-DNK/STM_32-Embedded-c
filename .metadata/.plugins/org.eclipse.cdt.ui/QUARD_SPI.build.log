@@ -1,0 +1,29 @@
+18:32:51 **** Incremental Build of configuration Debug for project QUARD_SPI ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/BSP/Refrance_drv/MX25L_QSPI_Flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I"/home/dnk067/workspace/QUARD_SPI/Drivers" -I"/home/dnk067/workspace/QUARD_SPI/Drivers/BSP" -I"/home/dnk067/workspace/QUARD_SPI/Drivers/BSP/Refrance_drv" -I"/home/dnk067/workspace/QUARD_SPI/Core/Src" -I"/home/dnk067/workspace/QUARD_SPI/Drivers/BSP/Flash" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Refrance_drv/MX25L_QSPI_Flash.d" -MT"Drivers/BSP/Refrance_drv/MX25L_QSPI_Flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Refrance_drv/MX25L_QSPI_Flash.o"
+../Drivers/BSP/Refrance_drv/MX25L_QSPI_Flash.c: In function 'BSP_QSPI_DeInit':
+../Drivers/BSP/Refrance_drv/MX25L_QSPI_Flash.c:96:2: warning: implicit declaration of function 'BSP_QSPI_MspDeInit'; did you mean 'BSP_QSPI_DeInit'? [-Wimplicit-function-declaration]
+   96 |  BSP_QSPI_MspDeInit(&QSPIHandle, NULL);
+      |  ^~~~~~~~~~~~~~~~~~
+      |  BSP_QSPI_DeInit
+../Drivers/BSP/Refrance_drv/MX25L_QSPI_Flash.c: At top level:
+../Drivers/BSP/Refrance_drv/MX25L_QSPI_Flash.c:518:13: warning: conflicting types for 'BSP_QSPI_MspDeInit'
+  518 | __weak void BSP_QSPI_MspDeInit(QSPI_HandleTypeDef *hqspi, void *Params) {
+      |             ^~~~~~~~~~~~~~~~~~
+../Drivers/BSP/Refrance_drv/MX25L_QSPI_Flash.c:96:2: note: previous implicit declaration of 'BSP_QSPI_MspDeInit' was here
+   96 |  BSP_QSPI_MspDeInit(&QSPIHandle, NULL);
+      |  ^~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "QUARD_SPI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/dnk067/workspace/QUARD_SPI/STM32L496ZGTXP_FLASH.ld" --specs=nosys.specs -Wl,-Map="QUARD_SPI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: QUARD_SPI.elf
+ 
+arm-none-eabi-size   QUARD_SPI.elf 
+arm-none-eabi-objdump -h -S  QUARD_SPI.elf  > "QUARD_SPI.list"
+   text	   data	    bss	    dec	    hex	filename
+  25648	    120	   2456	  28224	   6e40	QUARD_SPI.elf
+Finished building: default.size.stdout
+ 
+Finished building: QUARD_SPI.list
+ 
+
+18:32:52 Build Finished. 0 errors, 2 warnings. (took 1s.349ms)
+

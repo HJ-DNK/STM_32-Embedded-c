@@ -1,0 +1,10 @@
+17:13:39 **** Incremental Build of configuration Debug for project I2C_LSM303AGR ****
+make -j4 all 
+arm-none-eabi-size   I2C_LSM303AGR.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39168	    516	   2796	  42480	   a5f0	I2C_LSM303AGR.elf
+Finished building: default.size.stdout
+ 
+
+17:13:40 Build Finished. 0 errors, 0 warnings. (took 490ms)
+

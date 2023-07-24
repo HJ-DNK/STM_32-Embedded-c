@@ -1,0 +1,10 @@
+18:42:34 **** Incremental Build of configuration Debug for project couter_timer ****
+make -j4 all 
+arm-none-eabi-size   couter_timer.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8828	     20	   1708	  10556	   293c	couter_timer.elf
+Finished building: default.size.stdout
+ 
+
+18:42:34 Build Finished. 0 errors, 0 warnings. (took 444ms)
+

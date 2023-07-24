@@ -1,0 +1,10 @@
+16:22:12 **** Incremental Build of configuration Debug for project input_capture_Ti_mode ****
+make -j4 all 
+arm-none-eabi-size   input_capture_Ti_mode.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16476	    120	   1808	  18404	   47e4	input_capture_Ti_mode.elf
+Finished building: default.size.stdout
+ 
+
+16:22:12 Build Finished. 0 errors, 0 warnings. (took 457ms)
+

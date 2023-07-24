@@ -1,0 +1,42 @@
+09:46:43 **** Incremental Build of configuration Debug for project USB_cdc ****
+make -j4 all 
+arm-none-eabi-size   USB_cdc.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29972	    424	   8736	  39132	   98dc	USB_cdc.elf
+Finished building: default.size.stdout
+ 
+09:46:57 **** Incremental Build of configuration Debug for project USB_cdc ****
+make -j4 all 
+arm-none-eabi-size   USB_cdc.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29972	    424	   8736	  39132	   98dc	USB_cdc.elf
+Finished building: default.size.stdout
+ 
+10:00:56 **** Build of configuration Debug for project USB_HID_mouse ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "USB_HID_mouse.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/dnk067/workspace/USB_HID_mouse/STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USB_HID_mouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: USB_HID_mouse.elf
+ 
+arm-none-eabi-size   USB_HID_mouse.elf 
+arm-none-eabi-objdump -h -S  USB_HID_mouse.elf  > "USB_HID_mouse.list"
+   text	   data	    bss	    dec	    hex	filename
+  33352	    380	   4268	  38000	   9470	USB_HID_mouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: USB_HID_mouse.list
+ 
+10:12:15 **** Incremental Build of configuration Debug for project USB_HID_mouse ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "USB_HID_mouse.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/dnk067/workspace/USB_HID_mouse/STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USB_HID_mouse.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: USB_HID_mouse.elf
+ 
+arm-none-eabi-size   USB_HID_mouse.elf 
+arm-none-eabi-objdump -h -S  USB_HID_mouse.elf  > "USB_HID_mouse.list"
+   text	   data	    bss	    dec	    hex	filename
+  33352	    380	   4268	  38000	   9470	USB_HID_mouse.elf
+Finished building: default.size.stdout
+ 
+Finished building: USB_HID_mouse.list
+ 

@@ -1,0 +1,10 @@
+17:44:24 **** Incremental Build of configuration Debug for project mouse_usb ****
+make -j4 all 
+arm-none-eabi-size   mouse_usb.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30732	    364	   3572	  34668	   876c	mouse_usb.elf
+Finished building: default.size.stdout
+ 
+
+17:44:24 Build Finished. 0 errors, 0 warnings. (took 488ms)
+

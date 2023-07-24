@@ -1,0 +1,10 @@
+17:19:31 **** Incremental Build of configuration Debug for project I2C_SHT21_sensor ****
+make -j4 all 
+arm-none-eabi-size   I2C_SHT21_sensor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37228	    484	   1748	  39460	   9a24	I2C_SHT21_sensor.elf
+Finished building: default.size.stdout
+ 
+
+17:19:32 Build Finished. 0 errors, 0 warnings. (took 498ms)
+

@@ -1,0 +1,15 @@
+!SESSION 2023-07-07 09:45:07.840 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-07-07 09:46:14.629
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-07-07 09:46:14.834
+!MESSAGE Log4j initialized with config file /home/dnk067/workspace/I2C_SHT21_sensor/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-07-07 09:46:19.782
+!MESSAGE Started RMI Server, listening on port 41337

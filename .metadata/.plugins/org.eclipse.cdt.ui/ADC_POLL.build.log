@@ -1,0 +1,10 @@
+15:53:41 **** Incremental Build of configuration Debug for project ADC_POLL ****
+make -j4 all 
+arm-none-eabi-size   ADC_POLL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14788	    120	   1752	  16660	   4114	ADC_POLL.elf
+Finished building: default.size.stdout
+ 
+
+15:53:41 Build Finished. 0 errors, 0 warnings. (took 453ms)
+

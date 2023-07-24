@@ -1,0 +1,3 @@
+1685683644845	Rename resource 'I2C_BASIC'
+1685688965270	Delete resource 'I2C_SHT21_sensor/Drivers/BSP/sht21_driver.c'
+1685688969979	Delete resource 'I2C_SHT21_sensor/Drivers/BSP/sht21_driver.h'

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/dnk067/STM32Cube/Repository/STM32Cube_FW_L4_V1.17.2/Projects/NUCLEO-L496ZG/Examples/PWR/PWR_SLEEP"/>
+			<item value="/home/dnk067/Desktop/SLEEP_MODE"/>
+			<item value="/home/dnk067/STM32Cube/Repository/STM32Cube_FW_L4_V1.17.2/Projects/NUCLEO-L496ZG/Examples/PWR/PWR_LPSLEEP"/>
+			<item value="/home/dnk067/STM32Cube/Repository/STM32Cube_FW_L4_V1.17.2/Projects/NUCLEO-L496ZG/Examples/PWR/PWR_LPSLEEP/Src"/>
+			<item value="/home/dnk067/Desktop/QSPI_Flash"/>
+			<item value="/home/dnk067/Documents/IPMsg/AutoSave/QSPI_Flash"/>
+			<item value="/home/dnk067/Desktop/Anjali_Backup/SSM_&amp;_RPM_Firware/Smart_Seed_Machine_V2"/>
+		</list>
+	</section>
+</section>

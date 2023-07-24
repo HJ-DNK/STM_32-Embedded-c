@@ -1,0 +1,10 @@
+14:59:27 **** Incremental Build of configuration Debug for project spi_txrx_intrrupt ****
+make -j4 all 
+arm-none-eabi-size   spi_txrx_intrrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15008	    136	   1768	  16912	   4210	spi_txrx_intrrupt.elf
+Finished building: default.size.stdout
+ 
+
+14:59:27 Build Finished. 0 errors, 0 warnings. (took 489ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;sd_card_spi_inter/Core/Inc/fatfs_sd.c&apos;" deleteContents="false" description="Delete resource &apos;sd_card_spi_inter/Core/Inc/fatfs_sd.c&apos;" element1="/sd_card_spi_inter/Core/Inc/fatfs_sd.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1686296632244"/>
+</session>

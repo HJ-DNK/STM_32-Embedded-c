@@ -1,0 +1,10 @@
+10:30:27 **** Incremental Build of configuration Debug for project USB_CDCvirtualcomport ****
+make -j4 all 
+arm-none-eabi-size   USB_CDCvirtualcomport.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34680	    492	   6116	  41288	   a148	USB_CDCvirtualcomport.elf
+Finished building: default.size.stdout
+ 
+
+10:30:28 Build Finished. 0 errors, 0 warnings. (took 507ms)
+
